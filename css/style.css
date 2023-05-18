@@ -1,0 +1,79 @@
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+.lado{
+    display:flex;
+    height: 230px;
+    width: 230px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 15px;
+}
+.circulo{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Lado 1 */
+.lado1{
+    align-items: center;
+    justify-content: center;
+}
+
+/* Lado 2 */
+.lado2{
+    justify-content: space-between;
+}.circulo3{
+    align-self: flex-end;    
+}
+
+/* Lado 3 */
+.circulo5{
+    align-self: center;
+}
+.circulo6{
+    align-self: flex-end;
+}
+
+/* Lado 4 */
+.parteSuperior{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.parteInferior{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Lado 5 */
+.lados{
+    flex-direction: column;
+    display: flex;
+}
+.ladosExteriores{
+    justify-content: space-between;
+}
+.centro{
+    justify-content: center;
+}
+
+/* Lado 6*/
+.partes{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.parteDerecha{
+    align-items: flex-end;
+}
